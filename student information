@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+
+typedef struct {
+    int id;
+    char name[50];
+    float gpa;
+} Student;
+
+void add_student
